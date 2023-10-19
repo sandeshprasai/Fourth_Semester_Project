@@ -1,0 +1,92 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .main-body
+  {
+    width: 400px;
+    background-color: #fafafa;
+    text-align: center;
+    box-shadow: 5px gray;
+  }
+  h1
+  {
+    text-align: center;
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  }
+  i
+  {
+    font-size: 50px;
+    color: blue;
+  
+  }
+  .form
+  {
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    display:inline-block;
+  
+  }
+  
+  .txtfield
+  {
+    height: 30px;
+    width: 200px;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom:15px;
+    border-color: blue;
+  }
+  
+  .btn
+  {
+    display: inline-block;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    margin: 10px 0;
+    outline: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 2px 2px 2px #666;
+    background: blue;
+    color: #fff;
+  cursor: pointer;
+  }
+  .btn:hover
+  {
+    transform: scale(1.1);
+    transition: all ease-in 1s;
+  }
+  .form
+  {
+    display: inline-block;
+  }
+  .form i
+  {
+    font-size: 18px;
+    padding: 5px;
+  }
+  
+  .txtfield:focus {
+    background-color: lightblue;
+  
+  }
+  .new_usr
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .new_usr p ,.new_usr p a
+  {
+        color: navy;
+        text-decoration: none;
+  }

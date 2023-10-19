@@ -1,0 +1,179 @@
+@font-face {
+  font-family: Sofia;
+  src: url(./Sofia/Sofia-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+  
+body {
+  margin: 20px auto 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c2628;
+  color: #a6c9bd;
+}
+.main-body {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.usr_tetx h1,
+.fillup {
+  text-align: center;
+}
+.fillup {
+  margin: 20px auto 20px auto;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input {
+    margin: 10px 0;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: wheat; 
+}
+
+
+.uname,
+.sub_add,
+.selectbox {
+  width: 48%;
+  margin-right: 4%;
+}
+
+
+.uname,
+.add,
+.sub_add,
+.phn,
+.usreml,
+.psw,
+.selectbox {
+  font-size: 16px;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+.name,
+.phone {
+  display: flex;
+  flex-direction: row;
+}
+.uname {
+  color: wheat;
+  width: 50%;
+  height: 50px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.add,
+.phn,
+.usreml,
+.psw {
+  color: wheat;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.subaddress {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.sub_add,
+select {
+  color: wheat;
+  width: auto;
+  height: 50px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.password {
+  display: flex;
+  flex-direction: column;
+}
+
+.uname:focus,
+.add:focus,
+.sub_add:focus,
+.phn:focus,
+.usreml:focus,
+.psw:focus {
+  border-color: blueviolet;
+  outline: none;
+  box-shadow: 0 0 8px rgba(138, 43, 226, 0.5);
+}
+.selectbox:focus {
+  border-color: blueviolet;
+  outline: none;
+}
+
+.usr_tetx h1 {
+  color: #2ecc71;
+  font-family: Sofia;
+  letter-spacing: 2px;
+}
+
+.fillup h3 {
+  color: #3498db;
+  letter-spacing: 1px;
+  font-family: Sofia;
+}
+.endbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sbt {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sbt:hover {
+  background-color: #2980b9;
+}
+.endbox p a {
+  color: #3498db;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.endbox p a:hover {
+  color: #2980b9;
+}
